@@ -12,11 +12,13 @@ console.log(states);
 //states=[ 'AZ', 'FL', 'TX', 'IL', 'NY', 'WA' ];
 //  it creates new array in the memory. Since states is const, it is not possible. 
 //[ 'AZ', 'FL', 'TX', 'IL', 'NY', 'WA' ]
-const newArr=states.slice(2,5); 
+const newArr=states.slice(2); 
 
 console.log(newArr); // [ 'TX', 'IL', 'NY' ]
 
+newArr.sort(); 
 
+console.log(newArr);
 
 
 
