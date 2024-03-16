@@ -19,3 +19,5 @@ console.log(f.name);
 f.swim(); 
 
 let l=new Animal(); 
+
+module.exports=Animal; 
